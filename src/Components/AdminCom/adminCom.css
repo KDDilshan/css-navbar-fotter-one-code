@@ -1,0 +1,40 @@
+.panelContainer{
+    background-color: rgb(232, 249, 244);
+    height: 400px;
+    width: 450px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.inputs{
+    font-family: sans-serif;
+}
+.descriptionInput{
+    margin-top: 20px;
+}
+.desInput {
+    box-sizing: border-box;
+    border: none;
+    height: 150px;
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 10px;
+    resize: none; /* Optional: Disable resizing */
+  }
+.desInput:focus{
+    outline: none;
+}
+.locationInput{
+    margin-top: 20px;
+}
+.locInput{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+.locInput:focus{
+    outline: none;
+}

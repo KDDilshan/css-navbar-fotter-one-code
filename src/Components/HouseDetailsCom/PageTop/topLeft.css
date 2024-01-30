@@ -1,0 +1,10 @@
+.topLeftContainer {
+    margin-left: 30px;
+  }
+  
+  .largeImage {
+    width: 450px; /* Adjust the width to fit the size of four images (300px * 4 + 3 * 5px) */
+    height: 450px; /* Adjust the height to match the height of the smaller images */
+    margin-bottom: 5px; /* Space between the large image and any content below it */
+  }
+  

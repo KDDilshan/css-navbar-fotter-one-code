@@ -1,0 +1,109 @@
+.FormContainer{
+    flex: 5;
+    height: 300px;
+    width: 330px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    margin-left: 130px;
+    margin-right: 260px;
+    margin-top: 60px;
+    border-radius: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(94, 91, 91);
+    background-color: rgb(156, 231, 209);
+}
+.topic{
+    color: black;
+}
+
+.formTopic{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.formBox{
+    margin-top: -50px;
+    background-color: rgb(232, 249, 244);
+    border-radius: 20px;
+    padding-bottom: 60px;
+    z-index: 20px;
+}
+
+.formCenter{
+    display: flex;
+    width: 100%;
+    color: black;
+    padding-top: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text{
+    margin-left: 90px;
+}
+
+.inputs{
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+.input{
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.inputItem{
+    margin-bottom: 15px;
+}
+
+.inputName{
+    margin-right: 40px;
+}
+.inputPassword{
+    margin-right: 13px;
+}
+.inputAddress{
+    margin-right: 24px;
+}
+.inputLocation{
+    margin-right: 23px;
+}
+.userInput{
+    margin-left: 68px;
+}
+.ownerInput{
+    margin-left: 20px;
+}
+.maleInput{
+    margin-left: 68px;
+}
+.femaleInput{
+    margin-left: 48px;
+}
+
+.button{
+    background-color: rgb(72, 214, 174);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 70px;
+    margin: 4px 2px;
+    margin-left: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+

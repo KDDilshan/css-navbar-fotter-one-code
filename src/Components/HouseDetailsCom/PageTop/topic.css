@@ -1,0 +1,13 @@
+.topic{
+    font-family: sans-serif;
+    display: flex;
+    padding: 20px;
+    margin-left: 0;
+}
+
+.HousetopicContainer{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

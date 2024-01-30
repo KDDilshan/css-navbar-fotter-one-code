@@ -1,0 +1,122 @@
+.registerPage{
+    flex: 5;
+    height: calc(100vh-60px);
+    width: 100%;
+}
+
+
+.signUpImg{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.signUpBox{
+    height: 300px;
+    width: 350px;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(94, 91, 91);
+    background-color: rgb(232, 249, 244);
+}
+
+.signUpBoxTop{
+    align-items: center;
+    margin-left: 120px;
+}
+.welcomText{
+    font-weight: bold;
+    margin-left: -22px;
+    font-size: 32px;
+    top: 40px;
+}
+.userInputs{
+    margin-left: -30px;
+}
+
+.userInput{
+    padding: 20px;
+    margin: 10px;
+}
+.nameInput{
+    border: none;
+    width: 280px;
+    border-radius: 20px;
+}
+.nameInput:focus{
+    outline: none;
+}
+.passwordInput:focus{
+    outline: none;
+}
+.passwordInput{
+    border: none;
+    width: 280px;
+    border-radius: 20px;
+}
+.nameInputContainer{
+    display: flex;
+}
+.passwordContainer{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: rgb(72, 214, 174);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 125px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonContainer{
+    margin-top: -20px;
+    margin-left: -110px;
+}
+.signUpLink{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.welcomeMessage {
+    background-color: #15d31b; /* Green background color */
+    color: white; /* White text color */
+    padding: 15px; /* Add some padding */
+    border-radius: 10px; /* Add rounded corners */
+    border-color: black;
+    margin-top: 20px; /* Add some margin at the top */
+    text-align: center; /* Center the text */
+    font-size: 20px; /* Set the font size */
+  }
+  
+.welcomeMessage a {
+    color: #fff; /* Set the link color to white */
+    text-decoration: underline; /* Add underline to the link */
+  }
+
+.errorMessage {
+    background-color: #ff3333; /* Red background color */
+    color: white; /* White text color */
+    padding: 15px; /* Add some padding */
+    border-radius: 10px; /* Add rounded corners */
+    font-size: 18px; /* Set the font size */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add some margin at the top */
+  }
+@media (min-width: 600px) {
+    /* Adjust styles for screens larger than 600px wide */
+    .signUpBox {
+      width: 350px;
+      margin: 60px auto;
+    }
+}

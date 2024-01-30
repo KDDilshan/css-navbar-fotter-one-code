@@ -1,0 +1,20 @@
+.discriptionContainer{
+    background-color: rgb(232, 249, 244);
+    border-radius: 20px;
+    width: 85%;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.discription{
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.ratingCards{
+    display: flex;
+    margin-top: 20px;
+}
