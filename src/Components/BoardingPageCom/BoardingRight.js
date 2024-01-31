@@ -1,10 +1,10 @@
-import React from 'react'
-import './boardingRight.css'
+import React from "react";
+import "./boardingRight.css";
 
-export default function BoardingRight() {
-  return (
-    <div className='rightPaneContainer'>
-      right pane
-    </div>
-  )
+export default function BoardingRight({ img }) {
+	return (
+		<div className="rightPaneContainer">
+			<img src={img} alt={"Hosfksdkf"} />
+		</div>
+	);
 }
