@@ -44,7 +44,7 @@ export default function NavBar() {
   return (
     <div className='NavBarBox'>
       <div className="navBarLeft">
-        <NavLink to='/' className="logo">BoardSpare</NavLink>
+        <NavLink to='/'><img src="./images/BoardSphere-logos.jpeg" alt="" className="logo" /></NavLink>
       </div>
       <div className="navBarRight">
         <div className="navBarIcons">

@@ -1,3 +1,8 @@
+.topLeftContainer{
+  flex: 2;
+  margin-left: 30px;
+}
+
 .topLeftContainer {
   margin-left: 30px;
   margin-top: -100px;
@@ -8,3 +13,6 @@
   height: auto; /* Auto-adjust the height to maintain the aspect ratio */
   margin-bottom: 5px; /* Space between the large image and any content below it */
 }
+
+
+

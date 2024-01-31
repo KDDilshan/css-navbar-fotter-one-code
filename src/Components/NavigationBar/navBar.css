@@ -1,7 +1,7 @@
 .NavBarBox {
   height: 60px;
   width: 100%;
-  background-color: rgb(0, 215, 155);
+  background-color: rgb(140, 179, 167);
   display: flex;
   align-items: center;
   position: sticky;
@@ -10,13 +10,11 @@
 }
 
 .logo {
-  font-family: sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  margin-left: 10px;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
+  width: 70px;
+  height: 64px;
+  margin-left: 20px;
+  object-fit: cover;
+  
 }
 
 .navBarLeft {
@@ -47,6 +45,8 @@
   font-size: 16px; /* Adjust the font size as needed */
   padding: 8px 20px; /* Adjust the padding as needed */
   border-radius: 8px; /* Optional: Add rounded corners */
+  text-decoration: none;
+  color: black;
 }
 
 .logbutton:hover,

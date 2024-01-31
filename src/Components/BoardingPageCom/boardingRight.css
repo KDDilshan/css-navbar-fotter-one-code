@@ -1,3 +1,9 @@
 .rightPaneContainer{
     flex: 7;
 }
+
+.mapImgBpage{
+    margin-left: 200px;
+    margin-top: -20px;
+    
+}

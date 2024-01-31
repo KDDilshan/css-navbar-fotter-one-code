@@ -1,46 +1,102 @@
-.panelContainer{
-    background-color: rgb(51, 85, 75);
-    height: 500px;
-    width: 500px;
+.panelContainer {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: 500px;
-    margin-top: 85px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-}
-
-.inputs{
-    font-family: sans-serif;
-}
-.descriptionInput{
-    margin-top: 20px;
-}
-.ImageInput img {
-    max-width: 50%;  /* Set the maximum width to the container width */
-    max-height: 50px;  /* Set the maximum height (adjust as needed) */
-    display: block;  /* Ensure the image is displayed as a block element */
-    margin: 0 auto;  /* Center the image horizontally within the container */
-}
-.desInput {
-    box-sizing: border-box;
-    border: none;
-    height: 200px;
-    width: 400px;
-    padding-top: 10px;
-    border-radius: 10px;
-    resize: none; /* Optional: Disable resizing */
+    height: 100vh;
+    margin-top: -50px;
+    
   }
-.desInput:focus{
-    outline: none;
-}
-.locationInput{
-    margin-top: 20px;
-}
-.locInput{
+  
+  .formCont {
+    max-width: 600px;
+    width: 100%;
+    padding-top: -30px;
+    padding: 5px;
+    padding-bottom: 40px;
+    padding-top: -50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(184, 226, 212);
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagesInput,
+  .descriptionInput,
+  .locationInput {
+    margin-bottom: 20px;
+  }
+  
+  .inputName,
+  .inputDescription,
+  .inputLocation {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .ImageInput {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ImageInput img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+  }
+  
+  .desInput {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .LocationInput {
+    display: flex;
+    align-items: center;
+  }
+  
+  .locInput {
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: rgb(140, 179, 167);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
     border: none;
-    border-radius: 10px;
-    padding: 15px;
-}
-.locInput:focus{
-    outline: none;
-}
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: rgb(140, 179, 167);
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .submitButton {
+    text-align: center;
+    
+  }
+  .button{
+    background-color: rgb(140, 179, 167);
+  }
+  

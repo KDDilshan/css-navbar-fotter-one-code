@@ -9,6 +9,7 @@ export default function HomePage() {
 	return (
 		<div>
 			<NavBar />
+			<img src="./images/home.avif" alt="" className="backgoundImg" />
 			<div className="pageContainer">
 				<HomeLeft />
 				<HomeRight />

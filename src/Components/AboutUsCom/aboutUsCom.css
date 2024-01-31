@@ -1,5 +1,63 @@
-.memberIcon{
+.memberImg{
     height: 170px;
     width: 170px;
+    border-radius: 50%;
+    object-fit: cover;
     
 }
+.teamContainer{
+    margin-left: 460px;
+    margin-bottom: 60px;
+}
+
+.aboutUsContainer{
+    padding-top: 120px;
+    font-family: sans-serif;
+}
+.topic1{
+    margin-left: 700px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.underline{
+    width: 90px;
+    height: 3px;
+    background-color: rgb(140, 179, 167);
+    border: none;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.descriptionContainer{
+    padding: 30px 90px;
+    text-align: center;
+}
+.topic2{
+    margin-left: 700px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+  }
+
+  .formTopic{
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .firstRow{
+    display: flex;
+  }
+  .secondRow{
+    display: flex;
+  }
+  .member{
+    margin-left: 30px;
+  }

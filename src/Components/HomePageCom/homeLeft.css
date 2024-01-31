@@ -7,7 +7,7 @@
 }
 
 .uniList{
-    margin-top: 30px;
+    margin-top: 5px;
     margin-left: 40px;
     border-radius: 10px;
     border-style: inherit;
@@ -17,8 +17,9 @@
 
 
 .uniImage{
-    width: 250px;
+    width: 200px;
     margin-left: 40px;
+    margin-top: 0;
     border-radius: 10px;
     object-fit: contain;
 }
