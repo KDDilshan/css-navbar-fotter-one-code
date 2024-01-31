@@ -1,3 +1,9 @@
-.mapBox{
-    flex: 7;
+.mapBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-right: 10%;
+  margin-bottom: 10%;
 }
