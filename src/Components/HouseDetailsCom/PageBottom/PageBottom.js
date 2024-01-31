@@ -40,11 +40,12 @@ import React, { useState, useEffect } from 'react';
 import './pageBottom.css';
 import RatingCard from './RatingCard';
 import { useParams } from 'react-router-dom';
+import TopLeft from '../PageTop/TopLeft.js';
+
 
 export default function PageBottom() {
   const [house, setHouse] = useState(null);
   const { id } = useParams();
-  console.log('Captured ID:', id);
 
   useEffect(() => {
     const fetchHouse = async () => {
@@ -65,20 +66,25 @@ export default function PageBottom() {
     fetchHouse();
   }, [id]);
 
-  return (
-    <div className="bottomContainer">
-      {house ? (
-        <>
-          <h1>{`Owner ${id}`}</h1>
-          <p>{house.description}</p>
-        </>
-      ) : (
-        <p>Loading...</p>
-      )}
-
-      <div className="ratingCards">
+// Assuming you have the photoURL in the house object
+return (
+  <div className="bottomContainer">
+    {house ? (
+      <>
+        <TopLeft photoURL={house.photoURL} />
+        <h1>{`Owner ${id}`}</h1>
+        <p style={{ whiteSpace: 'pre-line' }}>{house.product.description}</p>
+        
+      </>
+    ) : (     
+      <p>Loading...</p>
+    )}
+    <div className="ratingCards">
+        <RatingCard />
+        <RatingCard />
         <RatingCard />
       </div>
-    </div>
+  </div>
   );
+
 }

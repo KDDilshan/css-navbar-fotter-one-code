@@ -6,6 +6,7 @@ import PageBottom from '../../Components/HouseDetailsCom/PageBottom/PageBottom'
 import NavBar from '../../Components/NavigationBar/NavBar'
 import Topic from '../../Components/HouseDetailsCom/PageTop/Topic'
 import Footer from '../../Components/Footer/Footer'
+import UserForm from '../../Components/HouseDetailsCom/PageBottom/userForm'
 
 export default function HouseDetails() {
   return (
@@ -18,6 +19,7 @@ export default function HouseDetails() {
       </div>
       <div className='bottomContainer'>
         <PageBottom/>
+        <UserForm/>
       </div>
       <Footer/>
     

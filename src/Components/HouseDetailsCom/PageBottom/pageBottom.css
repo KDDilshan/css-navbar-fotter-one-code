@@ -12,9 +12,12 @@
     font-weight: bold;
     padding-top: 10px;
     margin-left: 10px;
+    white-space: pre-line;
+
 }
 
 .ratingCards{
     display: flex;
     margin-top: 20px;
 }
+

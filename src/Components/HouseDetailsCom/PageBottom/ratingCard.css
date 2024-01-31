@@ -1,41 +1,21 @@
-/* Hide the default radio button */
-input.buttonStyle[type=radio] {
+.buttonStyle[type=radio]{
     display: none;
 }
 
-/* Set cursor to pointer for stars */
-.star {
+.star{
     cursor: pointer;
 }
 
-/* Flex container for user details and star rating */
-.cardTop {
+.cardTop{
     display: flex;
     align-items: center;
 }
 
-/* Add margin to star rating for better spacing */
-.starRating {
+.starRating{
     margin-left: 10px;
 }
 
-/* Add padding to the entire card container */
-.cardContainer {
+.cardContainer{
     margin-left: 70px;
-}
-
-/* Center the form and adjust textarea styles */
-.formContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-textarea {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    resize: vertical; /* Allow vertical resizing */
+    margin-bottom: 20px;
 }

@@ -73,13 +73,14 @@ export default function AdminCom() {
       });
 
       if (response.ok) {
-        console.log('Form submitted successfully');
+        alert("Form submitted sucess fully")
         navigate('/');
       } else {
-        console.error('Failed to submit form');
-        console.log(response);
+       alert('Failed to submit form');
+        console.error("falied to SubmitEvent,it form");
       }
     } catch (error) {
+      alert("Error submitting form .please try agnin")
       console.log('Error submitting form:', error);
     }
   };
@@ -95,15 +96,8 @@ export default function AdminCom() {
                 type="text"
                 name="imageUrl"
                 placeholder="Enter Image URL"
-                value={formData.imageUrl}
-                onChange={handleFormChange}
-                {...register('imageUrl', {
-                  required: 'Image URL is required',
-                  pattern: {
-                    value: /^(ftp|http|https):\/\/[^ "]+$/,
-                    message: 'Enter a valid URL',
-                  },
-                })}
+                value={formData.imageUrl}  // Make sure this is controlled by state
+                onChange={handleFormChange}  // Handle changes
               />
               <img src={formData.imageUrl} alt='' />
             </div>
@@ -115,7 +109,6 @@ export default function AdminCom() {
               className='desInput'
               name='description'
               onChange={handleFormChange}
-              wrap="off"
               placeholder="Type your text here"
             />
           </div>
